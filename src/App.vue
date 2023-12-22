@@ -8,7 +8,7 @@ import TypingIndicator from './components/TypingIndicator.vue';
 let drone = null
 
 function connectToScaledrone() {
-  drone = new window.Scaledrone('cc9b1z5du96h7Phu', {
+  drone = new window.Scaledrone('dpo6z5OXHf0Eombx', {
     data: me.value,
   });
   drone.on('open', error => {
@@ -50,18 +50,10 @@ onMounted(() => {
 
 function randomName() {
   const adjectives = [
-    'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop'
+    'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan'
   ];
   const nouns = [
-    'waterfall', 'river', 'breeze', 'moon', 'rain', 'wind', 'sea', 'morning',
-    'snow', 'lake', 'sunset', 'pine', 'shadow', 'leaf', 'dawn', 'glitter',
-    'forest', 'hill', 'cloud', 'meadow', 'sun', 'glade', 'bird', 'brook',
-    'butterfly', 'bush', 'dew', 'dust', 'field', 'fire', 'flower', 'firefly',
-    'feather', 'grass', 'haze', 'mountain', 'night', 'pond', 'darkness',
-    'snowflake', 'silence', 'sound', 'sky', 'shape', 'surf', 'thunder',
-    'violet', 'water', 'wildflower', 'wave', 'water', 'resonance', 'sun',
-    'wood', 'dream', 'cherry', 'tree', 'fog', 'frost', 'voice', 'paper', 'frog',
-    'smoke', 'star'
+    '', '', '', '', '', '', '', ''
   ];
   const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
   const noun = nouns[Math.floor(Math.random() * nouns.length)];
