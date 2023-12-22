@@ -50,15 +50,7 @@ onMounted(() => {
 
 function randomName() {
   const adjectives = [
-    'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop',
-    'summer', 'icy', 'delicate', 'quiet', 'white', 'cool', 'spring', 'winter',
-    'patient', 'twilight', 'dawn', 'crimson', 'wispy', 'weathered', 'blue',
-    'billowing', 'broken', 'cold', 'damp', 'falling', 'frosty', 'green', 'long',
-    'late', 'lingering', 'bold', 'little', 'morning', 'muddy', 'old', 'red',
-    'rough', 'still', 'small', 'sparkling', 'shy', 'wandering',
-    'withered', 'wild', 'black', 'young', 'holy', 'solitary', 'fragrant',
-    'aged', 'snowy', 'proud', 'floral', 'restless', 'divine', 'polished',
-    'ancient', 'purple', 'lively', 'nameless'
+    'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop'
   ];
   const nouns = [
     'waterfall', 'river', 'breeze', 'moon', 'rain', 'wind', 'sea', 'morning',
