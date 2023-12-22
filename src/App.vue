@@ -50,7 +50,7 @@ onMounted(() => {
 
 function randomName() {
   const adjectives = [
-    'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan', 'Aahan'
+    'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden'
   ];
   const nouns = [
     '', '', '', '', '', '', '', ''
