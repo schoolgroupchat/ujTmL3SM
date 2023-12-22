@@ -50,7 +50,7 @@ onMounted(() => {
 
 function randomName() {
   const adjectives = [
-    'autumn', 'hidden', 'bitter', 'misty', 'silent', 'empty', 'dry', 'dark',
+    'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop', 'stuop',
     'summer', 'icy', 'delicate', 'quiet', 'white', 'cool', 'spring', 'winter',
     'patient', 'twilight', 'dawn', 'crimson', 'wispy', 'weathered', 'blue',
     'billowing', 'broken', 'cold', 'damp', 'falling', 'frosty', 'green', 'long',
