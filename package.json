@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vue-chat-tutorial/",
+    "build": "vite build --base=/kissmyass/",
     "preview": "vite preview"
   },
   "dependencies": {
