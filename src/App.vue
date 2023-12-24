@@ -49,11 +49,10 @@ onMounted(() => {
 });
 
 function randomName() {
-  const adjectives = [
-    'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden', 'Osama Bin Laden'
-  ];
+  const adjectives = [];
+  adjectives[0]=prompt("What is your name?","Aahan Patel")
   const nouns = [
-    '', '', '', '', '', '', '', ''
+    ''
   ];
   const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
   const noun = nouns[Math.floor(Math.random() * nouns.length)];
