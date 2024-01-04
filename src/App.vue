@@ -60,7 +60,7 @@ function randomName() {
 }
 
 function randomColor() {
-  return '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
+  return prompt("whats your color?", "lime")
 }
 
 const messages = ref([]);
